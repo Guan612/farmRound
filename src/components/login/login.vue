@@ -1,9 +1,11 @@
 <template>
-    <h1>{{welcome}}</h1>
-    <input type="text" v-modle:value=username>
+    <div id="login">
+        <n-button>登录测试</n-button>
+    </div>
 </template>
 
-<script>
+<script setup>
+    import { NButton } from 'naive-ui'
 
 </script>
 
